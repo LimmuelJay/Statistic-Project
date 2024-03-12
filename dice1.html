@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="title">Roll a Dice!</h1>
+
+      <div class="dice">
+        <img id="img0" src="./images/dice/dice6.png">
+      </div>
+
+      <div id="radio-div" class="radio-div">
+        <label class="radio-label" name="selectType" id="selectType">
+          Dice
+          <input value="dices" type="radio" name="selectType" checked="checked">
+        </label>
+        <label class="radio-label" name="selectType" id="selectType">
+          Cards
+          <input value="cards" type="radio" name="selectType">
+        </label>
+      </div>
+    
+      <div class="buttons">
+        <div id="dice-select">
+            <label class="label">How many dice to roll?</label>
+            <select id="dice-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div class="btn-div">
+          <a class="btn">Roll</a>
+        </div>
+
+        <div class="goback">
+          <a href="./index.html" class="btn">Go Back</a>
+        </div>
+      </div>
+      
+    </div>
+   
+
+    <script defer src="./index.js"></script>
+  </body>
+  <footer>
+    LJ Dice/Card Generator 2024
+  </footer>
+</html>

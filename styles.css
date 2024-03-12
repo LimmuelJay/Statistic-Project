@@ -1,0 +1,149 @@
+body,
+html {
+  background-color: #393E46;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.dice {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  margin: 30px 0 0 0;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+img {
+  width: 120px;
+}
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.btn {
+	background-color:#4ECCA3;
+	border-radius: 3px;
+	color:#ffffff;
+	font-size:28px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+	padding: 10px;
+  width: 100px;
+	text-decoration:none;
+  display: inline-block;
+}
+.btn:hover {
+  user-select: none;
+  cursor: pointer;
+}
+.btn:active {
+	position:relative;
+  background-color: red;
+	top:1px;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#dice-select select, #dice-select label {
+	appearance: none;
+	/* width: 210px; */
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+	background-color: #4ECCA3;
+	color: #FFFFFF;
+	cursor: pointer;
+	outline: none;
+  border-radius: 3px;
+  user-select: none;
+}
+#dice-select label {
+  border-radius: 3px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 30px 0 0 0; */
+  gap: 20px;
+}
+
+
+.radio-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.radio-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 70px;
+  background-color: #4ECCA3;
+  border-radius: 3px;
+  padding: 3px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  user-select: none;
+}
+
+.radio-label:active {
+  background-color: red;
+}
+
+input {
+  display: none;
+}
+
+.goback {
+  height: 30px;
+}
+
+.goback > a {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
